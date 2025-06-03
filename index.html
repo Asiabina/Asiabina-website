@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asiabina Info</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #005288;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background: #eee;
+      padding: 1em;
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+    }
+    nav a {
+      text-decoration: none;
+      color: #005288;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2em;
+      background: white;
+      margin-bottom: 1em;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h2 {
+      color: #005288;
+    }
+    .org-chart {
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #005288;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Asiabina Sdn Bhd</h1>
+    <p>Internal Info & Announcements</p>
+  </header>
+
+<nav>
+  <a href="announcements.html">Announcements</a>
+  <a href="memos.html">Memos</a>
+  <a href="orgchart.html">Organizational Chart</a>
+</nav>
+
+  <section id="announcements">
+    <h2>📢 Announcements</h2>
+    <ul>
+      <li><strong>June 3:</strong> New project launching next week.</li>
+      <li><strong>May 28:</strong> Company outing postponed.</li>
+    </ul>
+  </section>
+
+  <section id="memos">
+    <h2>📝 Memos / Information</h2>
+    <p>Reminder: Submit monthly reports by the 5th of each month.</p>
+    <p>Updated travel policy available in the shared drive.</p>
+  </section>
+
+  <section id="orgchart">
+    <h2>👥 Organizational Chart</h2>
+    <div class="org-chart">
+      <p><strong>CEO</strong></p>
+      <p>↳ HR Manager — IT Manager — Sales Manager</p>
+      <p>↳ Staff under each department</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Asiabina Sdn Bhd. Internal Use Only.
+  </footer>
+</body>
+</html>
